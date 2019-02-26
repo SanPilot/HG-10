@@ -1,0 +1,168 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-image: url("/static/images/background.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+a {
+	text-decoration: none;
+}
+#wrapper {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+/* Navigation Bar Styles */
+#nav-wrapper {
+	position: fixed;
+	width: 100%;
+}
+#navigation {
+	padding: 10px 0px 10px 50px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+#nav-header {
+	float: left;
+}
+#logo a {
+	border: none;
+}
+#logo {
+	margin-top: 6px;
+	vertical-align: -5px;
+}
+#header-main {
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 8px;
+	font-size: 23px;
+	vertical-align: -16px;
+}
+#header-secondary {
+	font-size: 17px;
+	vertical-align: -14px;
+}
+#header-main, #header-secondary, #nav-main {
+	font-family: Open Sans, sans-serif;
+	color: #333333;
+	text-decoration: none;
+}
+#nav-main {
+	color: #535353;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+}
+.navlink {
+	color: #999999;
+	transition: color 0.2s;;
+}
+.navlink:hover {
+	color: #0f0f0f;
+}
+.menuitem {
+	height: 100%;
+	display: inline-block;
+	padding: 12px 10px 12px 10px;
+}
+/* Main Body Styles */
+#header {
+	margin: 20px 0px 15px 0px;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	color: #454545;
+	font-size: 50px;
+}
+#mainbody {
+	flex: 10;
+}
+#main {
+	background-color: #fafafa;
+	width: 65%;
+	margin: 130px auto 0 auto;
+	padding: 20px 50px;
+}
+#content {
+	margin: auto;
+}
+.contentp {
+	color: #505050;
+	font-family: Source Sans Pro, serif;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0px 0px 20px 0px;
+}
+.contentp a {
+	color: #505050;
+	text-decoration: underline;
+}
+.headerp {
+	margin: 20px 0px 0px 0px;
+	color: #818181;
+	font-family: Source Sans Pro, serif;
+	font-size: 30px;
+	text-indent: 20px;
+}
+#supercurtain {
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	position: fixed;
+	z-index: 999999;
+	background-color: #e5e5e5;
+	opacity: 1;
+	transition: opacity 1s;
+}
+#active {
+	color: black;
+}
+#resources {
+	background-color: #c9c9c9;
+	bottom: 0px;
+}
+#resourcesinner {
+	font-family: Source Sans Pro, serif;
+	line-height: 200%;
+	padding-top: 20px;
+	padding-bottom: 14px;
+	width: 70%;
+	margin: auto;
+	color: #464646;
+}
+.resourcesheader {
+	font-size: 27px;
+	color: #848484;
+}
+.citation {
+	font-size: 20px;
+	text-indent: -20px;
+	margin: 5px 0px 10px 20px;
+}
+.citation > a {
+	color: #464646;
+	text-decoration: underline;
+}
+#slider {
+	margin: 0px;
+	height: 500px;
+}
+#sliderinner {
+	width: 1000px;
+	margin: 0px auto;
+}
+#sliderwrapper {
+	margin-top: 20px;
+	background-color: #c9c9c9;
+}
+.bx-caption > span {
+	font-family: Source Sans Pro, serif;
+	font-size: 50px;
+}
+.light {
+	font-size: 20px;
+	color: #818181;
+}
